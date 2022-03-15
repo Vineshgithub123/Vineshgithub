@@ -17,6 +17,9 @@
   background-color: transparent;
   height: 12em;
 }
+.navbar-content a {
+  color: red;
+}
 
 .navbar a {
   color: red;
@@ -218,7 +221,6 @@ footer {
 }
 
 /* icon */
-
 ul {
   position: absolute;
   top: 50%;

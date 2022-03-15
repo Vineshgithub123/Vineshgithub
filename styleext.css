@@ -2,7 +2,6 @@
   padding: 0px;
   margin: 0px;
 }
-
 .navbar {
   background-color: transparent;
   height: 12em;
@@ -10,7 +9,10 @@
 
 .navbar .dropdown {
   padding-bottom: 24px;
-  /* float: right; */
+  float: right;
+  padding-bottom: 24px;
+  padding-left: 1em;
+  margin-right: 1em;
 }
 .navbar-content a {
   color: red;
@@ -24,6 +26,9 @@
   border: black solid;
   margin-left: 30px;
   margin-top: 1em;
+}
+.navbar a {
+  color: red;
 }
 
 .navbar a:hover {
@@ -45,7 +50,7 @@
   background-color: transparent;
   color: red;
   padding: 16px;
-  font-size: 20px;
+  font-size: 16px;
   border: none;
 }
 .dropbtn a {
