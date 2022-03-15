@@ -14,12 +14,12 @@
 }
 
 .navbar {
-  background-color: black;
+  background-color: transparent;
   height: 12em;
 }
 
 .navbar a {
-  color: green;
+  color: red;
   padding-top: 27px;
 }
 
@@ -38,7 +38,7 @@
 }
 
 .navbar a:hover {
-  color: white;
+  color: red;
 }
 .container5 {
   margin-bottom: 10%;
@@ -66,10 +66,11 @@
 /* Dropdown Button */
 .dropbtn {
   background-color: transparent;
-  color: green;
+  color: red;
   padding: 16px;
   font-size: 16px;
   border: none;
+  text-shadow: black;
 }
 .dropbtn a {
   text-decoration: none;
