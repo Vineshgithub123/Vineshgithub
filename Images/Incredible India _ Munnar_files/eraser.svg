@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>eraser</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="eraser" stroke="#FFFFFF" stroke-width="1.5">
+            <g id="Group-19" transform="translate(3.000000, 6.000000)">
+                <g id="eraser-(2)" transform="translate(8.836066, 0.000000)">
+                    <path d="M44.5587112,10.6540647 L34.9674768,1.13831045 C33.3915917,-0.374410898 30.8903816,-0.374410898 29.3143748,1.13831045 L9.30627452,20.9892048 L24.5506109,36.1137646 L44.5587112,16.2627497 C45.3230678,15.5129629 45.7569772,14.4933445 45.7654876,13.4269248 C45.761354,12.3779953 45.3254993,11.3763497 44.5587112,10.6540647" id="Fill-1"></path>
+                    <path d="M18.4117902,42.3365928 L22.4133859,38.3034733 L7.16904953,23.1158281 L1.19838759,29.0396985 C-0.334094462,30.6244312 -0.334094462,33.1264948 1.19838759,34.7113481 C5.83404956,39.5938078 8.33217971,42.2229668 8.69277802,42.5988251 C9.2336755,43.1626127 10.820381,44.6494003 13.2519273,44.7700224 C14.8729582,44.8504371 16.5929125,44.0392939 18.4117902,42.3365928 Z" id="Fill-3"></path>
+                </g>
+                <path d="M40.5655738,47.795082 L0.369521039,47.795082" id="Line-4" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>
