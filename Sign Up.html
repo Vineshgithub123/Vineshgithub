@@ -12,23 +12,29 @@
   <div class="container">
     <h2>Sign Up</h2>
 
-    <form action="">
+    <form action="idukki.html" onsubmit="return validate();return validate2()">
         <div class="form-item-username">
             <input type="text" name="firstName" id="firstName" placeholder="First Name">
             <input type="text" name="lastName" id="lastName" placeholder="Last Name">
         </div>
 
         <div class="form-item">
-            <input type="email" name="email" id="email" placeholder="Email">
+            <input type="email" name="email" id="email" placeholder="Email" pattern="([A-Za-z0-9\-.]+)@([A-Za-z0-9\-]+).([a-z]{2,3})(.[a-z]{2,3})?" required>
+            
         </div>
-
+        <div class="form-item">
+            <input id="phonenumber"  placeholder="Phonenumber" pattern="/^(?([0-9]{10})\)?)|\(?([0-9]{3})\)?[-]?([0-9]{3})[-]?([0-9]{4})|\(?([0-9]{3})\)?[.]?([0-9]{3})[.]?([0-9]{4})|\(?([0-9]{3})\)?[ ]?([0-9]{3})[ ]?([0-9]{4})$/" title="Only accept 4 formats:XXXXXXXXXX, XXX-XXX-XXXX, XXX.XXX.XXXX, XXX XXX XXXX" required>
+            <span id="error"></span>
+        </div>
         <div class="form-item">
             <!-- add a password format display -->
             <span class="pwd-format">
                 8-15 AlphaNumeric Characters
             </span>
-            <input type="password" name="password" id="password" placeholder="Enter password">
-            <input type="password" name="confirmPassword" id="confirmPassword" placeholder="Confirm password">
+            <input  name="password" id="password" type="password" placeholder="Enter password" title="Minimum 8 characters, at least one uppercase, and one lower case, must contain at least one number">
+            <span id="password1"></span>
+            <input type="password" name="confirmPassword" id="confirmPassword" placeholder="Confirm password" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$" title="Minimum 8 characters, at least one uppercase, and one lower case, must contain at least one number" required>
+            <span id="password2"></span>
         </div>
 
         <div class="accept-box">
@@ -44,8 +50,8 @@
         </div>
 
     </form>
+
 </div>
-  
-
-
+<script src="script.js"></script>
+</body>
 </html>

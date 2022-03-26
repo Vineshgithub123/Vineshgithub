@@ -9,23 +9,26 @@
 </head>
 
 <body background="./Images/tourist place login.jpeg">
+    
 
   <div class="container">
     <h2>Log In</h2>
-    <form action="">
+    <form action="index.html" >
 
-        <div class="form-item">
-            <input type="email" name="email" id="email" placeholder="Email">
-        </div>
+        <label class="form-item">
+            <input id="email" placeholder="Email/Phone Number" pattern="([A-Za-z0-9\-.]+)@([A-Za-z0-9\-]+).([a-z]{2,3})(.[a-z]{2,3})?" required>
+            <span id="error"></span>
+        </label>
 
-        <div class="form-item">
+        <label class="form-item">
             <!-- add a password format display -->
             <!-- <span class="pwd-format">
                 8-15 AlphaNumeric Characters
             </span> -->
-            <input type="password" name="password" id="password" placeholder="Enter password">
+            <input type="password" id="password" placeholder="Enter password" pattern="([A-Za-z0-9\-.]+)@([A-Za-z0-9\-]+).([a-z]{2,3})(.[a-z]{2,3})?" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
             <!-- <input type="password" name="confirmPassword" id="confirmPassword" placeholder="Confirm password"> -->
-        </div>
+            <span id="error1"></span>
+        </label>
 
         <div class="accept-box">
             <input type="checkbox" name="accept" id="accept">
@@ -42,6 +45,7 @@
     </form>
 
 </div>
+
 
   
 </body>
